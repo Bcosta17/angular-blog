@@ -2,6 +2,7 @@
 .container_menu-bar>ul {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .container_menu-bar>ul>li {
