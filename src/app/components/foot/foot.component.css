@@ -1,0 +1,12 @@
+.container-foot{
+	background-color:#8111D7;
+	padding: 1rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.container-foot>p{
+	color: #FFF;
+}

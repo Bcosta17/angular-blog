@@ -4,10 +4,16 @@
 			<img src="{{photoCover}}" alt="">
 		</div>
 		<div class="small-card_title">
-			<h1><a href="#">{{cardTitle}}</a></h1>
+			<h2><a [routerLink]="['content', id]">{{cardTitle}}</a></h2>
+		</div>
+		<div class="small-card_description">
+			<p><a  [routerLink]="['content', id]">{{cardDescription}}</a></p>
+		</div>
+		<div class="small-card_tags">
+			<ul>
+				<li *ngFor="let item of cardTags">{{item}}</li>
+			</ul>
 		</div>
 	</div>
-	<div class="container_small-card_separator">
-		<hr>
-	</div>
+
 </div>

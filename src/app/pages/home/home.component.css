@@ -1,12 +1,11 @@
-header {
-	display: flex;
-	justify-content: center;
-	margin-top: 15px;
-}
+
 .container_articles {
 	margin-top: 30px;
+}
 
+.articles_others{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: center;
+	width: 100%
 }

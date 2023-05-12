@@ -1,15 +1,18 @@
 <div class="container_big-card">
-	<div class="big-card_photo">
-		<img src="{{photoCover}}" alt="" height="200px">
+			<div class="big-card_title">
+				<h2><a [routerLink]="['content', id]">{{cardTitle}}</a></h2>
+			</div>
+			<div class="big-card_description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+			</div>
+			<div class="big-card_tags">
+				<ul>
+					<li>Design</li>
+					<li>Research</li>
+					<li>Presentation</li>
+				</ul>
+
+
 	</div>
-	<div class="big-card_title">
-		<h1><a href="#">{{cardTitle}}</a></h1>
-	</div>
-	<div class="big-card_description">
-		<p>
-			<a href="#">
-				{{cardDescription}}
-			</a>
-		</p>
-	</div>
+
 </div>

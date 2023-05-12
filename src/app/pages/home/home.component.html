@@ -1,21 +1,36 @@
-<header>
-	<app-menu-bar></app-menu-bar>
-</header>
 <app-menu-title></app-menu-title>
+
 <div class="container_articles">
 	<div class="articles_main">
-		<app-big-card photoCover="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-			cardTitle="Novo Home De Ferro Anunciado"
-			cardDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente  temporibus asperiores, repudiandae unde explicabo!">
+		<app-big-card id="1">
 		</app-big-card>
 	</div>
 	<div class="articles_others">
-		<app-small-card photoCover="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-			cardTitle="Nova Série Anunciada"></app-small-card>
-		<app-small-card photoCover="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-		cardTitle="Novo Filme Anunciado"
-		></app-small-card>
-		<app-small-card photoCover="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-		cardTitle="Substituição De Elenco Para Novo Filme"></app-small-card>
+		<app-small-card
+			id="2"
+			photoCover="../../../assets/andrey-k-4WPAFTJWKsc-unsplash.jpg"
+			cardTitle="Migrating to linear 101"
+			cardDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est expedita aspernatur asperiores architecto officia itaque molestias cupiditate cumque magni."
+			[cardTags]="cardTags"
+		>
+		</app-small-card>
+		<app-small-card
+			id="3"
+			photoCover="../../../assets/grace-hilty-uvAhJHLul_Q-unsplash.jpg"
+			cardTitle="Building your API Stack"
+			cardDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est expedita aspernatur asperiores architecto officia itaque molestias cupiditate cumque magni."
+			[cardTags]="cardTags"
+		>
+		</app-small-card>
+		<app-small-card
+			id="4"
+			photoCover="../../../assets/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+			cardTitle="Bill Walsh leadership lessons"
+			cardDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est expedita aspernatur asperiores architecto officia itaque molestias cupiditate cumque magni."
+			[cardTags]="cardTags"
+		>
+		</app-small-card>
+
 	</div>
 </div>
+
