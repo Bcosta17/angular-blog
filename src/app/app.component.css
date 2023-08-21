@@ -1,3 +1,7 @@
 header {
-	margin: 15px 15px 0;
+  background-color: var(--purple-bg);
+  padding: 6.9rem 13.5rem;
+  border-bottom: solid var(--green) 6px;
+  font-size: 1.8rem;
+  color: var(--white);
 }

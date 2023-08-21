@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 	@Input() photoCover: string = '';
-	@Input() cardTitle: string = 'UX review presentations ';
+	@Input() cardTitle: string = 'Começando no ReactJS em 2022';
 	@Input() cardDescription: string = '';
 	@Input() id: string = '0';
 

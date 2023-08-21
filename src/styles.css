@@ -1,12 +1,38 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	list-style: none;
-	color: #111;
+  font-family: 'Roboto', sans-serif;
+  list-style:  none;
+  text-decoration: none;
 }
 
+:root {
+  font-size: 62.5%;
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+
+h2 a{
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--purple-bg);
+}
+
+h2 {
+	margin: .8rem 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: justify;
+}
 
 a{
 	text-decoration: none;

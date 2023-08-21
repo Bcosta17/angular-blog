@@ -1,11 +1,40 @@
-.container_menu-title{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 35px;
-}
-.container_menu-title > h1{
-	font-size: 3rem;
+.container-title {
+	display: grid;
+  grid-template-areas:
+  "cotent imgHeader";
+  grid-template-columns: 50% 50%;
+  gap: 6.4rem 6rem;
 
+	margin-top: 6.4rem;
+}
+.cotent {
+  grid-area: cotent;
 }
 
+.cotent h1 {
+  font-size: 3.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 51rem;
+  color: var(--button-bg);
+  margin-bottom: 1.6rem;
+}
+
+.cotent > p{
+  text-align: justify;
+  font-weight: 400;
+  width: 45.5rem;
+  color: var(--light-purple);
+  margin-bottom: 1.6rem;
+}
+
+.cotent a div  {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--button-bg);
+  gap: .8rem;
+}
+
+.img {
+  grid-area: img
+}
